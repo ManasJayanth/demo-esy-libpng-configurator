@@ -1,0 +1,16 @@
+{
+	"name": "demo-libpng",
+	"esy": {
+		"build": "dune build -p #{self.name}"
+	},
+	"dependencies": {
+		"ocaml": "4.11.1000",
+		"@opam/dune": "*",
+		"@opam/dune-configurator": "*",
+		"esy-libpng": "esy-packages/esy-libpng"
+	},
+	"devDependencies": {
+		"@opam/ocamlformat": "*",
+		"@opam/ocaml-lsp-server": "*"
+	}
+}
